@@ -29,4 +29,3 @@ setInterval(function () {
     getData()
 }, 3600000);
 
-
