@@ -1,27 +1,49 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Ma météo</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+  <title>Ma météo</title>
 
 </head>
+
 <body>
-  
- <!--contenu-->
-  <p class="toto">Ttyuempérature</p>
 
 
+  <div class="container">
+    <h1 id="city">
+    </h1>
+    <div>
+      <img class="image" src="MEA-Meteo.webp" alt="" />
+    </div>
+    <div>
+      <img id="weathericon" />
+      <p><span id="temp"></span>°C</p>
+    </div>
+    <div class="entête">
+    </div>
+    <div>
+      <p><span id="icon"></span></p>
+    </div>
+    <div class="Tempactif">
+      <p><span id="description"></span></p>
+    </div>
+    <div>
+      <p>Température ressentie: <span id="feelsLike"></span>°C</p>
+    </div>
+    <div>
+      <p>Humidité: <span id="humidity"></span>%</p>
+    </div>
 
+  </div>
 
-  <p>Température: <span id="temp"></span>°C</p>
-  <p>Température ressentie: <span id="feelsLike"></span>°C</p>
-  <p>Humidité: <span id="humidity"></span>%</p>
-  <p>Description: <span id="description"></span></p>
-  <p>Ville: <span id="city"></span></p>
-
-  <script src="meteo.js" defer type="module"></script>  
+  <script src="meteo.js" defer type="module"></script>
 </body>
+
 </html>

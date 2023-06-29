@@ -1,3 +1,35 @@
-.toto{
-    color: blue;
+body {
+    font-family: 'Caprasimo', cursive;
+}
+
+.container {
+    background-color: rgb(226, 226, 234);
+    border: 8px solid rgb(100, 207, 212);
+    border-radius: 10%;
+    position: absolute;
+    text-align: center;
+    font-size: large;
+    opacity: 50;
+}
+
+.image {
+    width: 400px;
+}
+
+.entête {
+    color: rgb(61, 42, 165);
+    size-adjust: 30;
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.Tempactif {
+    size-adjust: 70;
+}
+
+#icon {
+    margin-left: auto;
+    margin-right: auto
 }

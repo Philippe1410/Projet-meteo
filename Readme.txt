@@ -1,0 +1,1 @@
+Veuillez indiquer la lat et la long pour la Ville dans le conf.json

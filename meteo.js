@@ -13,19 +13,26 @@ function getData() {
             const humidity = data.main.humidity
             const description = data.weather[0].description
             const city = data.name
-
+            const weathericon = data.weather[0].icon
+            const iconurl = "https://openweathermap.org/img/wn/" + weathericon + "@2x.png";
+            
+            
             document.getElementById("temp").innerHTML = temp
             document.getElementById("feelsLike").innerHTML = feelsLike
             document.getElementById("humidity").innerHTML = humidity
             document.getElementById("description").innerHTML = description
             document.getElementById("city").innerHTML = city
-            console.log("donees");
+            document.getElementById("weathericon").src = iconurl
+            
+            
+            
+
         })
 }
 
 getData()
 
-setInterval(function () {
+/*setInterval(function () {
     getData()
-}, 3600000);
+}, 3600000);*/
 

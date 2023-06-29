@@ -1,3 +1,0 @@
-        fetch('https://api.openweathermap.org/data/2.5/weather?q=city&units=metric&lang=fr&APPID=7cee13000273fad9f99a600b9b1702d5')
-
-7cee13000273fad9f99a600b9b1702d5
