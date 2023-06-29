@@ -1,1 +1,1 @@
-Veuillez indiquer la lat et la long pour la Ville dans le conf.json
+Veuillez indiquer la latitude et la longitude sur Google maps pour la Ville dans le conf.json
