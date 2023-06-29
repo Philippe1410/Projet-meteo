@@ -32,7 +32,7 @@ function getData() {
 
 getData()
 
-/*setInterval(function () {
+setInterval(function () {
     getData()
-}, 3600000);*/
+}, 3600000);
 

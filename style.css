@@ -3,8 +3,8 @@ body {
 }
 
 .container {
-    background-color: rgb(226, 226, 234);
-    border: 8px solid rgb(100, 207, 212);
+    background-color: rgb(182, 182, 192);
+    border: 8px solid #4452a3;
     border-radius: 10%;
     position: absolute;
     text-align: center;
